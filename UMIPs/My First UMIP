@@ -1,20 +1,20 @@
 
 ## HEADERS
-| UMIP-65   |                                                                                                                                          |
+| UMIP-xxx   |                                                                                                                                          |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| UMIP Title | Add uTVL_KPI_UMA  as a Price Identifier              |
-| Authors    | Hart Lambur hart@umaproject.org, Mhairi McAlpine mhairi@umaproject.org  |
-| Status     | Approved                                                                                                                                   |
-| Created    | 4th March 2021   
-| [Discourse Link](https://discourse.umaproject.org/t/add-utvl-kpi-uma-as-a-price-identifier/318) | 
+| UMIP Title | Add uTVL_KPI_DPI  as a Price Identifier              |
+| Authors    | Montay Burks montayburks@gmail.com  |
+| Status     | Draft                                                                                                                                   |
+| Created    | 4th May 2021   
+| [Discourse Link] | 
 
 # SUMMARY 
 
 Key Performance Indicator(KPI) options are synthetic tokens that redeem to protocol tokens with the redemption value determined by performance against that indicator. One example of a KPI is Total Value Locked (TVL).  
 
-This UMIP enables the DVM to support price requests based on the TVL of UMA
+This UMIP enables the DVM to support price requests based on the TVL of DPI
 
-A synthetic option is minted against a base collateral, in this case UMA, which expires at 00.00(UTC) June 30th 2021.
+A synthetic option is minted against a base collateral, in this case DPI, which expires at 00.00(UTC) XXXX XX 2021.
 
 Options are redeemed on the basis of TVL/10^9, with a floor of 0.1 and a ceiling of 2.
 
