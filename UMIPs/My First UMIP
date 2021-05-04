@@ -152,15 +152,15 @@ Note - see rationale for further discussion
 
 # PRICE FEED IMPLEMENTATION
 
-As there is no requirement for ongoing monitoring through liquidation or dispute bots, a price feed is not required.  The only requirement is a query of the UMA TVL statistic at the timestamp 00.00(UTC) on 30th June according to the data and markets as defined above.
+As there is no requirement for ongoing monitoring through liquidation or dispute bots, a price feed is not required.  The only requirement is a query of the DPI TVL statistic at the timestamp 00.00(UTC) on XX/XX/XXXX according to the data and markets as defined above.
 
 <br>
 
 # TECHNICAL SPECIFICATIONS
 
-**1. Price Identifier Name** - uTVL_KPI_UMA
+**1. Price Identifier Name** - uTVL_KPI_DPI
 
-**2. Base Currency** - uTVL_UMA. 
+**2. Base Currency** - uTVL_DPI. 
 
 **3. Quote currency** 
 
@@ -177,7 +177,7 @@ Please be aware that the value of any UMA synthetic token is the value of the pr
 
 **4. Intended Collateral Currency** 
  
- - UMA
+ - DPI
 
 Does the value of this collateral currency match the standalone value of the listed quote currency? 
 
@@ -186,7 +186,7 @@ Does the value of this collateral currency match the standalone value of the lis
 Is your collateral currency already approved to be used by UMA financial contracts? If no, submit a UMIP to have the desired collateral currency approved for use. 
 
  - YES 
- - UMA was approved as a collateral currency in[UMIP 56](https://github.com/UMAprotocol/UMIPs/blob/master/UMIPs/umip-56.md) 
+ - DPI was approved as a collateral currency in[UMIP 63](https://github.com/UMAprotocol/UMIPs/blob/master/UMIPs/umip-63.md) 
 
 **5. Collateral Decimals** 
 
